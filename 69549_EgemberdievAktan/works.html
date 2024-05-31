@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Egemberdiev Aktan</title>
+    <link rel="stylesheet" href="works.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="getin">Home</a></li>
+                <li><a href="works.html">Projects</a></li>
+                <li><a href="contact.html">Contact <i class="fa-regular fa-gear"></i></a></li>
+            </ul>
+        </nav>
+
+        <div class="header-content">
+            <h1>Projects Review</h1>
+            <p class="quote">"Live Yours"</p>
+        </div>
+    </header>
+
+    <section class="projects" id="projects">
+        <h1>My Projects</h1>
+        <div class="project-list">
+            <div class="project-item">
+                <h2>Doner ACAB</h2>
+                <p>Doner ACAB is the street-wear based in CIS, Russia, 2 types of t-shirts was created by me.
+                    A.C.A.B. is an acronym for "All Cops Are Bastards".  </p>
+            </div>
+            <div class="project-item">
+                <h2>$CAM Connecting People</h2>
+                <p>This is my second t-shirt for streetwear brand.</p>
+            </div>
+            <div class="project-item">
+                <h2>Slay Shoes</h2>
+                <p>Slay Shoes Man is my sneakers store which is located in Kyrgyzstan, Bishkek.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery">
+        <h1>Gallery</h1>
+        <div class="gallery-images">
+            <img src="1c88b9c7-a848-4e6b-8446-6d94c30d284d.jpeg" alt="Gallery Image 1">
+            <img src="811b11f9-aa22-427b-8085-019fa1bb54c3.jpeg" alt="Gallery Image 2">
+            <img src="9dcbb414-bd2a-470d-b9bc-e0815ba24cd6.jpeg" alt="Gallery Image 3">
+            <img src="ff66e832-fb69-402d-8a0d-4c645d8ef4e8.jpeg" alt="Gallery Image 4">
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-buttons">
+                <button onclick="scrollToTop()">Back to Top</button>
+                <button onclick="scrollToSection('#get-in-touch')">Get in Touch</button>
+                <button onclick="scrollToSection('#contacts')">Contact</button>
+            </div>
+            <p>This website was made by me in 36 minutes cos of my laptops videocard died recently and no one didint let me use theirs :( </p>
+            <div class="social-icons">
+                <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+
+        function scrollToSection(sectionId) {
+            document.querySelector(sectionId).scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+    </script>
+
+</body>
+</html>

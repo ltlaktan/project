@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+
+</head>
+
+<body>
+    
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="getin">Home</a></li>
+                <li><a href="works.html" class="getin">Projects</a></li>
+                <li><a href="contact.html">Contact <i class="fa-regular fa-gear"></i></a></li>
+            </ul>
+        </nav>
+
+        <div class="header-content">
+            <h1>Egemberdiev Aktan</h1>
+            <p class="quote">"Live Yours"</p>
+        </div>
+    </header>
+
+    <section class="about-me" id="about-me">
+        <h1>Skills</h1>
+        <div class="skills-icons">
+            <i class="fab fa-figma"></i>
+            <i class="fab fa-html5"></i>
+            <i class="fab fa-css3-alt"></i>
+            <i class="fab fa-python"></i>
+            <i class="fab fa-behance"></i>
+            <i class="fab fa-react"></i>
+            <i class="fab fa-btc"></i>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h1>About Me</h1>
+        <div class="about-content">
+            <div class="about-item">
+                <h2>Name</h2>
+                <p>Egemberdiev Aktan</p>
+            </div>
+            <div class="about-item">
+                <h2>Age</h2>
+                <p>19</p>
+            </div>
+            <div class="about-item">
+                <h2>Occupation</h2>
+                <p>Software Developer</p>
+            </div>
+            <div class="about-item">
+                <h2>Education</h2>
+                <p>Bachelor's in Computer Science</p>
+            </div>
+            <div class="about-item">
+                <h2>Projects</h2>
+                <p>Project 1, Project 2, Project 3</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-buttons">
+                <button onclick="scrollToTop()">Back to Top</button>
+                <button onclick="scrollToSection('#get-in-touch')">Get in Touch</button>
+                <button onclick="scrollToSection('#contacts')">Contact</button>
+            </div>
+            <p>This website was made by me in 36 minutes cos of my laptops videocard died recently and no one didint let me use theirs :( </p>
+            <div class="social-icons">
+                <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+
+        function scrollToSection(sectionId) {
+            document.querySelector(sectionId).scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+    </script>
+
+</body>
+
+</html>
